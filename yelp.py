@@ -24,4 +24,4 @@ def get_businesses( city ):
     # 3. 🆘✨we want to get a JSON response from Yelp. 
     # They keep the info we need in the response_body.events.
     # 💡returns a JSON array of events in a city
-    return json.loads(request.text)["buisinesses"]
+    return json.loads(request.text)["businesses"]
